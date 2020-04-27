@@ -1,0 +1,9 @@
+name: 'Release Tag'
+description: 'Create a release on tag push'
+inputs:
+  tag_name:
+    description: 'tag'
+    required: true
+runs:
+  using: 'node12'
+  main: 'index.js'
